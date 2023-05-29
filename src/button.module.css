@@ -1,0 +1,26 @@
+.buttons {
+  display: flex;
+  gap: 20px;
+}
+
+.buttons .button {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: green;
+  border: none;
+  border-radius: 100%;
+  width: 36px;
+  height: 36px;
+  color: white;
+  transition: .3s
+}
+
+.buttons .button:active {
+  opacity: .6;
+}
+
+.buttons .button:first-child {
+  background-color: red;
+}
